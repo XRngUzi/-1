@@ -2,13 +2,13 @@
 a{text-decoration:none;}
 img{border:none;}
 .banner {
-	width:1350px;
-	height:397px;
+	height:400px;
 	background:url(../img/0.png);
 }
 .line {
 	width:100%;
-	border:6px solid #005dad;
+	height:6px;
+	background:#005caf;
 }
 .box {
 	width:1050px;
@@ -128,12 +128,14 @@ img{border:none;}
 }
 .dt {
 	height:245px;
-	width:1200px;S
+	width:1200px;
 }
 .dt .dt-l {
 	float:left;
-	height:320px;
+	margin-left:170px;
+	height:245px;
 	width:;360px
+	
 }
 .dt .dt-r {
 	float:right;
@@ -161,19 +163,118 @@ img{border:none;}
 }
 .dt .dt-r div {
 	width:114px;
-	height:30px;
+	height:35px;
 	background:#01ace2;
 	margin:48px 0 0 0;
 	text-align:center;
+	border-radius:10px 10px  10px 10px;
 }
 .dt .dt-r div a {
 	line-height:30px;
 	color:#fff;
+ }
+ .bg {
+	width:100%;
+	height:370px;
+	background:#f4f4f4;
+ }
+ .dm {
+	width:1200px;
+	height:370px;
+ }
+ .dm .dm-l {
+	width:495px;
+	height:370px;
+	float:left;
+	margin-left:120px;
+ }
+ .dm .dm-l h3 {
+	height:20px;
+	padding-top:60px;
+	line-height:20px;
+	color:#ffb233;
+	margin-bottom:20px;
+ }
+ .dm .dm-l ul {
+	padding-left:15px;
+	height:200px;
+ }
+ .dm .dm-l ul li {
+	font-size:14px;
+	color:#ffb233;
 }
+.dm .dm-l ul li a {
+	color:#666666;
+	line-height:30px
+}
+.bg .dm .dm-l div {
+	width:110px;
+	height:32px;
+	background:#ffb233;
+	margin-left:0;
+	text-align:center;
+	border-radius:10px 10px  10px 10px;
+}
+.bg .dm .dm-l div a {
+	line-height:30px;
+	color:#fff;
+}
+.bg .dm .dm-r {
+	float:left;
+	width:330px;
+	height:280px;
+	padding:40px 20px;
+}
+.db {
+	height:370px;
+	width:1200px;
+}
+.db .db-l {
+	float:left;
+	padding-top:45px;
+	margin-left:130px;
+	height:245px;
+	width:;370px
+}
+.db .db-r {
+	width:600px;
+	height:370px;
+	float:right;
+}
+.db .db-r h3 {
+	height:20px;
+	padding-top:60px;
+	line-height:20px;
+	color:#7f64b5;
+	margin-bottom:20px;
+}
+.db .db-r ul {
+	padding-left:15px;
+	height:120px;
+}
+.db .db-r ul li {
+	font-size:14px;
+	color:#7f64b5;
+}
+.db .db-r ul li a {
+	color:#666666;
+	line-height:30px
+}
+.db .db-r div {
+	width:114px;
+	height:35px;
+	background:#7f64b5;
+	margin:48px 0 0 0;
+	text-align:center;
+	border-radius:10px 10px  10px 10px;
+}
+.db .db-r div a {
+	line-height:30px;
+	color:#fff;
+ }
 .footer {
 	width:100%;
 	height:90px;
-	background:red;
 }
 .footer .footer-t {
 	width:100%;
