@@ -2,6 +2,7 @@
 a{text-decoration:none;}
 img{border:none;}
 .banner {
+	width:1346;
 	height:400px;
 	background:url(../img/0.png);
 }
@@ -134,12 +135,11 @@ img{border:none;}
 	float:left;
 	margin-left:170px;
 	height:245px;
-	width:;360px
 	
 }
 .dt .dt-r {
 	float:right;
-	width:600px;
+	margin-right:50px;
 	height:240px;
 	padding-left:10px;
 }
@@ -183,7 +183,6 @@ img{border:none;}
 	height:370px;
  }
  .dm .dm-l {
-	width:495px;
 	height:370px;
 	float:left;
 	margin-left:120px;
@@ -221,7 +220,6 @@ img{border:none;}
 }
 .bg .dm .dm-r {
 	float:left;
-	width:330px;
 	height:280px;
 	padding:40px 20px;
 }
@@ -234,10 +232,9 @@ img{border:none;}
 	padding-top:45px;
 	margin-left:130px;
 	height:245px;
-	width:;370px
 }
 .db .db-r {
-	width:600px;
+	margin-right:190px;
 	height:370px;
 	float:right;
 }
